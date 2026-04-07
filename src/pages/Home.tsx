@@ -47,26 +47,6 @@ export default function Home() {
       </section>
 
       <div className="container py-12 space-y-16">
-        {/* 아고다 소개 */}
-        <section>
-          <h2 className="section-title">아고다(Agoda)란?</h2>
-          <div className="mt-10 grid md:grid-cols-2 gap-8">
-            <div className="space-y-4 text-muted-foreground leading-relaxed">
-              <p>Agoda.com은 세계 최대 온라인 여행사 그룹인 <strong className="text-foreground">Booking Holdings</strong> 소속 플랫폼입니다. 유럽에는 Booking.com, 아시아에는 Agoda가 대표 브랜드로 자리잡고 있습니다.</p>
-              <p>싱가포르, 방콕, 서울, 도쿄, 타이베이 등 아시아 주요 도시에 지사를 운영하며, 한국인이 선호하는 여행지(동남아, 일본 등)의 숙소를 가장 많이 보유하고 있습니다.</p>
-              <p>호텔, 리조트, 아파트먼트, 게스트하우스는 물론 항공권, 액티비티까지 예약 가능합니다.</p>
-              <h3 className="text-foreground font-semibold text-lg mt-4">결제 특징</h3>
-              <ul className="list-disc pl-5 space-y-1 text-sm">
-                <li>국내 거의 모든 신용카드 지원: 신한, 현대, 하나, 국민, 농협, BC, 롯데, 삼성카드</li>
-                <li>간편결제 지원: 카카오페이, 네이버페이, PAYCO</li>
-                <li>대형 OTA 중 유일하게 <strong>PayPal 결제</strong> 지원</li>
-                <li>선결제(온라인 결제) + 현장 결제 모두 지원</li>
-                <li>무료 취소 옵션 제공 (숙소별 정책 상이)</li>
-              </ul>
-            </div>
-            <img src={southeastAsia} alt="아고다가 강한 동남아시아 여행지" width={960} height={640} loading="lazy" className="rounded-xl object-cover w-full h-72 md:h-full" />
-          </div>
-        </section>
 
         {/* 기본 할인코드 */}
         <section>
@@ -376,6 +356,27 @@ export default function Home() {
               <li>• 캐시백 → 재예약 사용 = 선순환 구조</li>
             </ul>
             <CtaButton className="mt-4 text-xs" text="아고다 캐시 적립하기 →" />
+          </div>
+        </section>
+
+        {/* 아고다 소개 */}
+        <section>
+          <h2 className="section-title">아고다(Agoda)란?</h2>
+          <div className="mt-10 grid md:grid-cols-2 gap-8">
+            <div className="space-y-4 text-muted-foreground leading-relaxed">
+              <p>Agoda.com은 세계 최대 온라인 여행사 그룹인 <strong className="text-foreground">Booking Holdings</strong> 소속 플랫폼입니다. 유럽에는 Booking.com, 아시아에는 Agoda가 대표 브랜드로 자리잡고 있습니다.</p>
+              <p>싱가포르, 방콕, 서울, 도쿄, 타이베이 등 아시아 주요 도시에 지사를 운영하며, 한국인이 선호하는 여행지(동남아, 일본 등)의 숙소를 가장 많이 보유하고 있습니다.</p>
+              <p>호텔, 리조트, 아파트먼트, 게스트하우스는 물론 항공권, 액티비티까지 예약 가능합니다.</p>
+              <h3 className="text-foreground font-semibold text-lg mt-4">결제 특징</h3>
+              <ul className="list-disc pl-5 space-y-1 text-sm">
+                <li>국내 거의 모든 신용카드 지원: 신한, 현대, 하나, 국민, 농협, BC, 롯데, 삼성카드</li>
+                <li>간편결제 지원: 카카오페이, 네이버페이, PAYCO</li>
+                <li>대형 OTA 중 유일하게 <strong>PayPal 결제</strong> 지원</li>
+                <li>선결제(온라인 결제) + 현장 결제 모두 지원</li>
+                <li>무료 취소 옵션 제공 (숙소별 정책 상이)</li>
+              </ul>
+            </div>
+            <img src={southeastAsia} alt="아고다가 강한 동남아시아 여행지" width={960} height={640} loading="lazy" className="rounded-xl object-cover w-full h-72 md:h-full" />
           </div>
         </section>
 
