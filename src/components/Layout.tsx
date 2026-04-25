@@ -19,7 +19,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
       <header className="sticky top-0 z-50 border-b bg-card/95 backdrop-blur supports-[backdrop-filter]:bg-card/80">
         <nav className="container flex items-center justify-between h-16">
           <Link to="/" className="text-xl font-bold text-primary">
-            아고다 할인코드
+            아고다 쿠폰
           </Link>
           {/* Desktop nav */}
           <div className="hidden md:flex items-center gap-6">
@@ -81,7 +81,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         <div className="container py-10">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div>
-              <h3 className="text-lg font-bold mb-3">아고다 할인코드</h3>
+              <h3 className="text-lg font-bold mb-3">아고다 쿠폰</h3>
               <p className="text-sm text-muted-foreground leading-relaxed">
                 아고다(Agoda) 최신 할인코드, 카드사 프로모션, 사용 가이드를 한곳에서 확인하세요.
                 매월 업데이트되는 정보로 여행 경비를 절약하세요.
@@ -107,12 +107,12 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                     아고다 할인 페이지 바로가기
                   </a>
                 </li>
-                <li className="text-muted-foreground">업데이트: 2026년 4월</li>
+                <li className="text-muted-foreground">업데이트: 2026년 5월</li>
               </ul>
             </div>
           </div>
           <div className="border-t mt-8 pt-6 text-center text-xs text-muted-foreground">
-            <p>© 2026 아고다 할인코드. 이 사이트는 아고다 제휴 파트너로서 제휴 링크를 포함하고 있습니다.</p>
+            <p>© 2026 아고다 쿠폰. 이 사이트는 아고다 제휴 파트너로서 제휴 링크를 포함하고 있습니다.</p>
             <p className="mt-1">본 사이트는 Agoda.com의 공식 사이트가 아닙니다. 모든 정보는 참고용이며, 정확한 정보는 아고다 공식 사이트에서 확인하세요.</p>
           </div>
         </div>

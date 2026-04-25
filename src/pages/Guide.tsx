@@ -13,8 +13,8 @@ export default function Guide() {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{__html: JSON.stringify({
         "@context":"https://schema.org","@type":"HowTo",
-        "name":"아고다 할인코드 사용 방법 가이드",
-        "description":"아고다 할인코드 입력법, 카드 할인 적용법, 중복 할인 조합법, 결제 팁을 상세히 안내합니다.",
+        "name":"아고다 쿠폰 사용 방법 가이드",
+        "description":"아고다 쿠폰 입력법, 카드 할인 적용법, 중복 할인 조합법, 결제 팁을 상세히 안내합니다.",
         "url":"https://agd.couponmonster.co.kr/guide",
         "step":[
           {"@type":"HowToStep","name":"프로모션 전용 링크로 접속","text":"프로모션 전용 링크를 통해 아고다에 접속합니다."},
@@ -186,7 +186,7 @@ export default function Guide() {
             <div className="info-card">
               <h3 className="font-bold mb-2">📅 예약 기간 (프로모션 기간)</h3>
               <p className="text-sm text-muted-foreground">할인코드를 입력해 호텔을 실제 예약할 수 있는 기간입니다.</p>
-              <p className="text-xs text-muted-foreground mt-2">예: 2026년 4월 1일 ~ 4월 30일</p>
+              <p className="text-xs text-muted-foreground mt-2">예: 2026년 5월 1일 ~ 5월 31일</p>
             </div>
             <div className="info-card">
               <h3 className="font-bold mb-2">🏨 숙박 기간</h3>

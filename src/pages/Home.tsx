@@ -16,10 +16,10 @@ export default function Home() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{__html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "WebPage",
-        "name": "아고다 할인코드 2026년 4월 총정리",
-        "description": "2026년 4월 최신 아고다 할인코드, 카드사 프로모션, 정기 할인 정보를 한곳에서 확인하세요.",
+        "name": "아고다 쿠폰",
+        "description": "5월 아고다 쿠폰 총정리! 국내·일본 아고다 할인코드부터 아고다 할인링크까지 한 번에. 지금 바로 쓸 수 있는 아고다 쿠폰 모음, 5월 숙소 예약 전 할인코드 사용해서 예약하세요. 매월 업데이트되는 최신 할인 정보입니다.",
         "url": "https://agd.couponmonster.co.kr/",
-        "publisher": {"@type":"Organization","name":"아고다 할인코드","url":"https://agd.couponmonster.co.kr"},
+        "publisher": {"@type":"Organization","name":"아고다 쿠폰","url":"https://agd.couponmonster.co.kr"},
         "mainEntity": {
           "@type": "ItemList",
           "itemListElement": [
@@ -36,7 +36,7 @@ export default function Home() {
         <div className="hero-overlay absolute inset-0 flex items-center">
           <div className="container">
             <h1 className="text-3xl md:text-5xl font-black mb-4" style={{color:'white'}}>
-              2026년 4월<br />아고다 할인코드 총정리
+              2026년 5월<br />아고다 할인코드 총정리
             </h1>
             <p className="text-lg md:text-xl mb-6 max-w-xl" style={{color:'rgba(255,255,255,0.9)'}}>
               최대 15% 할인! 카드사 프로모션부터 정기 할인까지 — 아고다 할인의 모든 것
@@ -50,8 +50,8 @@ export default function Home() {
 
         {/* 기본 할인코드 */}
         <section>
-          <h2 className="section-title">2026년 4월 아고다 할인코드</h2>
-          <p className="text-sm text-muted-foreground mt-8 mb-6">⚠️ 아래 할인코드는 2026년 4월 기준이며, 매월 말~익월 초에 갱신됩니다.</p>
+          <h2 className="section-title">2026년 5월 아고다 할인코드</h2>
+          <p className="text-sm text-muted-foreground mt-8 mb-6">⚠️ 아래 할인코드는 2026년 5월 기준이며, 매월 말~익월 초에 갱신됩니다.</p>
 
           <div className="grid gap-5">
             {/* Coupon 1 */}
@@ -216,13 +216,13 @@ export default function Home() {
 
         {/* 카드사 제휴 할인 */}
         <section>
-          <h2 className="section-title">2026년 4월 카드사 제휴 할인 프로모션</h2>
+          <h2 className="section-title">2026년 5월 카드사 제휴 할인 프로모션</h2>
           <p className="text-sm text-muted-foreground mt-8 mb-6">카드사 프로모션은 별도의 할인코드 입력 없이, 카드사 전용 페이지에서 해당 카드로 결제하면 자동 적용됩니다.</p>
           <img src={creditCards} alt="아고다 카드사 할인 - 한국 신용카드" width={960} height={640} loading="lazy" className="w-full h-48 md:h-64 object-cover rounded-xl mb-6" />
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {[
-              { name: "삼성카드", rate: "7~10%", detail: "전 지역 7% / 이탈리아·말레이시아·인도네시아 10%", period: "~2026.04.30", note: "LINK 혜택 또는 전용 페이지" },
+              { name: "삼성카드", rate: "7~10%", detail: "전 지역 7% / 이탈리아·말레이시아·인도네시아 10%", period: "~2026.05.31", note: "LINK 혜택 또는 전용 페이지" },
               { name: "신한카드", rate: "7~10%", detail: "전 지역 7% / 말레이시아·인도네시아·이탈리아 10%", period: "~2026.06.30", note: "선착순 자동 적용" },
               { name: "우리카드", rate: "7%+", detail: "전 지역 최소 7% 이상 할인", period: "~2026.06.30", note: "핀번호 입력 시 자동 적용" },
               { name: "하나카드", rate: "7%+", detail: "전 지역 최소 7% 이상 할인", period: "~2026.06.30", note: "선착순 마감" },
@@ -304,7 +304,7 @@ export default function Home() {
             <div className="info-card">
               <h3 className="font-bold">🎉 더블데이 세일 (시즌성)</h3>
               <span className="badge-discount mt-2">15% 추가</span>
-              <p className="text-sm text-muted-foreground mt-2">2026년 4월 11일까지 · 봄 시즌 한정 프로모션</p>
+              <p className="text-sm text-muted-foreground mt-2">2026년 5월 31일까지 · 봄 시즌 한정 프로모션</p>
             </div>
           </div>
         </section>

@@ -16,8 +16,8 @@ export default function Compare() {
         "headline":"아고다 할인 비교 & 꿀팁 - 카드사별 비교, OTA 비교, VIP 가이드",
         "description":"카드사별 아고다 할인 비교표, OTA 비교, 할인 극대화 전략, AgodaVIP 등급 완전 가이드",
         "url":"https://agd.couponmonster.co.kr/compare",
-        "author":{"@type":"Organization","name":"아고다 할인코드"},
-        "datePublished":"2026-04-01","dateModified":"2026-04-07"
+        "author":{"@type":"Organization","name":"아고다 쿠폰"},
+        "datePublished":"2026-05-01","dateModified":"2026-05-07"
       })}} />
 
       <section className="hero-section">
@@ -50,7 +50,7 @@ export default function Compare() {
                 </tr>
               </thead>
               <tbody>
-                <tr><td className="font-bold">삼성카드</td><td><span className="badge-discount">7%</span></td><td>이탈리아·말레이시아·인도네시아 10%</td><td>2026.04.30</td><td>신용카드</td><td className="text-xs">LINK 혜택/전용 페이지</td></tr>
+                <tr><td className="font-bold">삼성카드</td><td><span className="badge-discount">7%</span></td><td>이탈리아·말레이시아·인도네시아 10%</td><td>2026.05.31</td><td>신용카드</td><td className="text-xs">LINK 혜택/전용 페이지</td></tr>
                 <tr><td className="font-bold">신한카드</td><td><span className="badge-discount">7%</span></td><td>말레이시아·인도네시아·이탈리아 10%</td><td>2026.06.30</td><td>신용카드</td><td className="text-xs">선착순 자동적용</td></tr>
                 <tr><td className="font-bold">우리카드</td><td><span className="badge-discount">7%</span></td><td>—</td><td>2026.06.30</td><td>신용카드</td><td className="text-xs">핀번호 입력</td></tr>
                 <tr><td className="font-bold">하나카드</td><td><span className="badge-discount">7%</span></td><td>—</td><td>2026.06.30</td><td>신용카드</td><td className="text-xs">선착순 마감</td></tr>
