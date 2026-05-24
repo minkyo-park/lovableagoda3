@@ -4,6 +4,11 @@ import nightOwl from "@/assets/night-owl.jpg";
 import southeastAsia from "@/assets/southeast-asia.jpg";
 import mobileBooking from "@/assets/mobile-booking.jpg";
 import savingsCelebration from "@/assets/savings-celebration.jpg";
+import coupon1 from "@/assets/coupon-1.webp";
+import coupon2 from "@/assets/coupon-2.webp";
+import coupon3 from "@/assets/coupon-3.webp";
+import coupon4 from "@/assets/coupon-4.webp";
+import coupon5 from "@/assets/coupon-5.webp";
 import CopyButton from "@/components/CopyButton";
 import CtaButton from "@/components/CtaButton";
 
@@ -57,6 +62,7 @@ export default function Home() {
             {/* Coupon 1 */}
             <div className="coupon-card">
               <div className="flex flex-wrap items-start justify-between gap-4">
+                <img src={coupon1} alt="아고다 전 세계 숙소 5% 할인코드 쿠폰 이미지" loading="lazy" width={1254} height={1254} className="w-full sm:w-44 md:w-52 aspect-square object-cover rounded-xl shrink-0" />
                 <div className="flex-1 min-w-0">
                   <div className="flex flex-wrap items-center gap-2 mb-2">
                     <span className="badge-discount">5% 할인</span>
@@ -80,6 +86,7 @@ export default function Home() {
             {/* Coupon 2 */}
             <div className="coupon-card">
               <div className="flex flex-wrap items-start justify-between gap-4">
+                <img src={coupon2} alt="아고다 인기 여행지 4개국 전용 8% 할인코드 쿠폰 이미지" loading="lazy" width={1254} height={1254} className="w-full sm:w-44 md:w-52 aspect-square object-cover rounded-xl shrink-0" />
                 <div className="flex-1 min-w-0">
                   <div className="flex flex-wrap items-center gap-2 mb-2">
                     <span className="badge-discount">8% 할인</span>
@@ -102,6 +109,7 @@ export default function Home() {
             {/* Coupon 3 */}
             <div className="coupon-card">
               <div className="flex flex-wrap items-start justify-between gap-4">
+                <img src={coupon3} alt="아고다 신규 회원 전용 7% 할인코드 쿠폰 이미지" loading="lazy" width={1254} height={1254} className="w-full sm:w-44 md:w-52 aspect-square object-cover rounded-xl shrink-0" />
                 <div className="flex-1 min-w-0">
                   <div className="flex flex-wrap items-center gap-2 mb-2">
                     <span className="badge-discount">7% 할인</span>
@@ -124,6 +132,7 @@ export default function Home() {
             {/* Coupon 4 */}
             <div className="coupon-card">
               <div className="flex flex-wrap items-start justify-between gap-4">
+                <img src={coupon4} alt="아고다 국내 숙소 전용 5% 할인코드 쿠폰 이미지" loading="lazy" width={1254} height={1254} className="w-full sm:w-44 md:w-52 aspect-square object-cover rounded-xl shrink-0" />
                 <div className="flex-1 min-w-0">
                   <div className="flex flex-wrap items-center gap-2 mb-2">
                     <span className="badge-discount">5% 할인</span>
@@ -145,6 +154,7 @@ export default function Home() {
             {/* Coupon 5 */}
             <div className="coupon-card">
               <div className="flex flex-wrap items-start justify-between gap-4">
+                <img src={coupon5} alt="아고다 인플루언서 최대 12% 할인코드 쿠폰 이미지" loading="lazy" width={1254} height={1254} className="w-full sm:w-44 md:w-52 aspect-square object-cover rounded-xl shrink-0" />
                 <div className="flex-1 min-w-0">
                   <div className="flex flex-wrap items-center gap-2 mb-2">
                     <span className="badge-discount">최대 12%</span>
