@@ -22,7 +22,7 @@ export default function Home() {
         "@context": "https://schema.org",
         "@type": "WebPage",
         "name": "아고다 쿠폰",
-        "description": "5월 아고다 쿠폰 총정리! 국내·일본 아고다 할인코드부터 아고다 할인링크까지 한 번에. 지금 바로 쓸 수 있는 아고다 쿠폰 모음, 5월 숙소 예약 전 할인코드 사용해서 예약하세요. 매월 업데이트되는 최신 할인 정보입니다.",
+        "description": "6월 아고다 쿠폰 총정리! 국내·일본 아고다 할인코드부터 아고다 할인링크까지 한 번에. 지금 바로 쓸 수 있는 아고다 쿠폰 모음, 6월 숙소 예약 전 할인코드 사용해서 예약하세요. 매월 업데이트되는 최신 할인 정보입니다.",
         "url": "https://agd.couponmonster.co.kr/",
         "publisher": {"@type":"Organization","name":"아고다 쿠폰","url":"https://agd.couponmonster.co.kr"},
         "mainEntity": {
@@ -41,7 +41,7 @@ export default function Home() {
         <div className="hero-overlay absolute inset-0 flex items-center">
           <div className="container">
             <h1 className="text-3xl md:text-5xl font-black mb-4" style={{color:'white'}}>
-              2026년 5월<br />아고다 할인코드 총정리
+              2026년 6월<br />아고다 할인코드 총정리
             </h1>
             <p className="text-lg md:text-xl mb-6 max-w-xl" style={{color:'rgba(255,255,255,0.9)'}}>
               최대 15% 할인! 카드사 프로모션부터 정기 할인까지 — 아고다 할인의 모든 것
@@ -55,8 +55,8 @@ export default function Home() {
 
         {/* 기본 할인코드 */}
         <section>
-          <h2 className="section-title">2026년 5월 아고다 할인코드</h2>
-          <p className="text-sm text-muted-foreground mt-8 mb-6">⚠️ 아래 할인코드는 2026년 5월 기준이며, 매월 말~익월 초에 갱신됩니다.</p>
+          <h2 className="section-title">2026년 6월 아고다 할인코드</h2>
+          <p className="text-sm text-muted-foreground mt-8 mb-6">⚠️ 아래 할인코드는 2026년 6월 기준이며, 매월 말~익월 초에 갱신됩니다.</p>
 
           <div className="grid gap-5">
             {/* Coupon 1 */}
@@ -71,7 +71,8 @@ export default function Home() {
                   <h3 className="text-lg font-bold mb-1">① 전 세계 숙소 5% 할인코드</h3>
                   <p className="text-sm text-muted-foreground">전 세계 모든 지역 숙소 5% 즉시 할인 · 최대 $30 할인</p>
                   <div className="flex flex-wrap gap-4 mt-3 text-xs text-muted-foreground">
-                    <span>📅 예약: ~4/30</span>
+                    <span>🏷️ 코드: COUDAL</span>
+                    <span>📅 예약: ~6/30</span>
                     <span>🏨 투숙: ~2027.3.31</span>
                     <span>💻 PC/모바일 웹</span>
                   </div>
@@ -95,7 +96,7 @@ export default function Home() {
                   <h3 className="text-lg font-bold mb-1">② 인기 여행지 4개국 전용 8% 할인코드</h3>
                   <p className="text-sm text-muted-foreground">태국 🇹🇭 · 인도네시아 🇮🇩 · 이탈리아 🇮🇹 · 말레이시아 🇲🇾</p>
                   <div className="flex flex-wrap gap-4 mt-3 text-xs text-muted-foreground">
-                    <span>📅 예약: ~4/30</span>
+                    <span>📅 예약: ~6/30</span>
                     <span>💻 PC/모바일 웹 (앱 불가)</span>
                   </div>
                   <p className="text-xs text-muted-foreground mt-2">💡 일반 5% 코드보다 할인율이 높으므로 해당 국가 여행 시 반드시 우선 적용</p>
@@ -118,7 +119,7 @@ export default function Home() {
                   <h3 className="text-lg font-bold mb-1">③ 신규 회원 전용 7% 할인코드</h3>
                   <p className="text-sm text-muted-foreground">홍콩 🇭🇰 · 스페인 🇪🇸 · 독일 🇩🇪 · 라오스 🇱🇦</p>
                   <div className="flex flex-wrap gap-4 mt-3 text-xs text-muted-foreground">
-                    <span>📅 예약: ~4/30</span>
+                    <span>📅 예약: ~6/30</span>
                     <span>👤 첫 예약 고객 전용</span>
                   </div>
                   <p className="text-xs text-muted-foreground mt-2">💡 가입일과 무관하게 아고다에서 "첫 번째 예약"인지 여부가 기준</p>
@@ -141,12 +142,35 @@ export default function Home() {
                   <h3 className="text-lg font-bold mb-1">④ 국내 숙소 전용 5% 할인코드</h3>
                   <p className="text-sm text-muted-foreground">한국 내 모든 숙소 예약 시 5% 할인</p>
                   <div className="flex flex-wrap gap-4 mt-3 text-xs text-muted-foreground">
-                    <span>📅 예약: ~4/30</span>
+                    <span>📅 예약: ~6/30</span>
                     <span>💻 PC/모바일 웹</span>
                   </div>
                 </div>
                 <div className="flex flex-col gap-2 shrink-0">
                   <a href={AFFILIATE} target="_blank" rel="noopener noreferrer nofollow" className="cta-button text-xs whitespace-nowrap">할인 적용하기 →</a>
+                </div>
+              </div>
+            </div>
+
+            {/* Coupon 4-2: 국내 10% (신규) */}
+            <div className="coupon-card">
+              <div className="flex flex-wrap items-start justify-between gap-4">
+                <div className="flex-1 min-w-0">
+                  <div className="flex flex-wrap items-center gap-2 mb-2">
+                    <span className="badge-discount">10% 할인</span>
+                    <span className="text-xs text-muted-foreground">국내 숙소</span>
+                  </div>
+                  <h3 className="text-lg font-bold mb-1">④-2 국내 숙소 10% 할인코드</h3>
+                  <p className="text-sm text-muted-foreground">한국 내 모든 숙소 예약 시 10% 할인 · 최대 $25 할인</p>
+                  <div className="flex flex-wrap gap-4 mt-3 text-xs text-muted-foreground">
+                    <span>🏷️ 코드: LP10AGD2</span>
+                    <span>📅 예약: 2026.06.01~06.30</span>
+                    <span>🏨 투숙: ~2027.3.31</span>
+                    <span>💻 PC/모바일 웹</span>
+                  </div>
+                </div>
+                <div className="flex flex-col gap-2 shrink-0">
+                  <a href={AFFILIATE} target="_blank" rel="noopener noreferrer nofollow" className="cta-button text-xs whitespace-nowrap">국내 10% 할인 적용 →</a>
                 </div>
               </div>
             </div>
@@ -163,7 +187,8 @@ export default function Home() {
                   <h3 className="text-lg font-bold mb-1">⑤ 인플루언서 할인코드 (최대 12%)</h3>
                   <p className="text-sm text-muted-foreground">기존 할인에 중복 적용 가능 · 신규+기존 회원 모두</p>
                   <div className="flex flex-wrap gap-4 mt-3 text-xs text-muted-foreground">
-                    <span>📅 예약: ~4/30</span>
+                    <span>🏷️ 코드: LP12AGD2</span>
+                    <span>📅 예약: ~6/30</span>
                     <span>💻 PC/모바일 웹만</span>
                   </div>
                 </div>
@@ -184,7 +209,7 @@ export default function Home() {
                   <h3 className="text-lg font-bold mb-1">⑥ 아고다 공식 할인코드 (최대 15%)</h3>
                   <p className="text-sm text-muted-foreground">아고다 공식 발급 프로모션 코드 · 일부 지정 호텔에서만 적용</p>
                   <div className="flex flex-wrap gap-4 mt-3 text-xs text-muted-foreground">
-                    <span>📅 예약: ~4/30</span>
+                    <span>📅 예약: ~6/30</span>
                   </div>
                 </div>
                 <div className="flex flex-col gap-2 shrink-0">
@@ -226,13 +251,13 @@ export default function Home() {
 
         {/* 카드사 제휴 할인 */}
         <section>
-          <h2 className="section-title">2026년 5월 카드사 제휴 할인 프로모션</h2>
+          <h2 className="section-title">2026년 6월 카드사 제휴 할인 프로모션</h2>
           <p className="text-sm text-muted-foreground mt-8 mb-6">카드사 프로모션은 별도의 할인코드 입력 없이, 카드사 전용 페이지에서 해당 카드로 결제하면 자동 적용됩니다.</p>
           <img src={creditCards} alt="아고다 카드사 할인 - 한국 신용카드" width={960} height={640} loading="lazy" className="w-full h-48 md:h-64 object-cover rounded-xl mb-6" />
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {[
-              { name: "삼성카드", rate: "7~10%", detail: "전 지역 7% / 이탈리아·말레이시아·인도네시아 10%", period: "~2026.05.31", note: "LINK 혜택 또는 전용 페이지" },
+              { name: "삼성카드", rate: "7~10%", detail: "전 지역 7% / 이탈리아·말레이시아·인도네시아 10%", period: "~2026.06.30", note: "LINK 혜택 또는 전용 페이지" },
               { name: "신한카드", rate: "7~10%", detail: "전 지역 7% / 말레이시아·인도네시아·이탈리아 10%", period: "~2026.06.30", note: "선착순 자동 적용" },
               { name: "우리카드", rate: "7%+", detail: "전 지역 최소 7% 이상 할인", period: "~2026.06.30", note: "핀번호 입력 시 자동 적용" },
               { name: "하나카드", rate: "7%+", detail: "전 지역 최소 7% 이상 할인", period: "~2026.06.30", note: "선착순 마감" },
@@ -274,9 +299,16 @@ export default function Home() {
               <CtaButton className="mt-3 w-full text-center text-xs" text="카카오페이 할인 적용 →" />
             </div>
             <div className="info-card">
-              <h3 className="font-bold mb-2">💳 네이버페이 / PAYCO</h3>
-              <span className="badge-info mb-2">수시 확인</span>
-              <p className="text-sm text-muted-foreground mt-2">결제 수단으로 사용 가능 · 별도 추가 할인은 프로모션에 따라 상이</p>
+              <h3 className="font-bold mb-2">💚 네이버페이</h3>
+              <span className="badge-discount mb-2">11% 할인</span>
+              <p className="text-sm text-muted-foreground mt-2">국내·해외 숙소 11% 할인 · 최대 100 USD · 예약 6.1~6.30 / 투숙 ~8.31 · 전용 페이지 결제</p>
+              <CtaButton className="mt-3 w-full text-center text-xs" text="네이버페이 할인 적용 →" href="https://www.agoda.com/ko-kr/naverpaypromo?cid=1963008&tag=A100692912" />
+            </div>
+            <div className="info-card">
+              <h3 className="font-bold mb-2">💙 토스페이</h3>
+              <span className="badge-discount mb-2">11% 할인</span>
+              <p className="text-sm text-muted-foreground mt-2">국내·해외 숙소 11% 할인 · 최대 100 USD · 예약 6.1~6.30 / 투숙 ~8.31 · 전용 페이지 결제</p>
+              <CtaButton className="mt-3 w-full text-center text-xs" text="토스페이 할인 적용 →" href="https://www.agoda.com/ko-kr/tosspaypromo?cid=1963016&tag=A100692912" />
             </div>
           </div>
         </section>
@@ -314,7 +346,7 @@ export default function Home() {
             <div className="info-card">
               <h3 className="font-bold">🎉 더블데이 세일 (시즌성)</h3>
               <span className="badge-discount mt-2">15% 추가</span>
-              <p className="text-sm text-muted-foreground mt-2">2026년 5월 31일까지 · 봄 시즌 한정 프로모션</p>
+              <p className="text-sm text-muted-foreground mt-2">2026년 6월 30일까지 · 여름 시즌 한정 프로모션</p>
             </div>
           </div>
         </section>

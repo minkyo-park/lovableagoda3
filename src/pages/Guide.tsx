@@ -186,17 +186,17 @@ export default function Guide() {
             <div className="info-card">
               <h3 className="font-bold mb-2">📅 예약 기간 (프로모션 기간)</h3>
               <p className="text-sm text-muted-foreground">할인코드를 입력해 호텔을 실제 예약할 수 있는 기간입니다.</p>
-              <p className="text-xs text-muted-foreground mt-2">예: 2026년 5월 1일 ~ 5월 31일</p>
+              <p className="text-xs text-muted-foreground mt-2">예: 2026년 6월 1일 ~ 6월 30일</p>
             </div>
             <div className="info-card">
               <h3 className="font-bold mb-2">🏨 숙박 기간</h3>
               <p className="text-sm text-muted-foreground">예약한 호텔에 실제로 체크인하여 머무를 수 있는 날짜 범위입니다.</p>
-              <p className="text-xs text-muted-foreground mt-2">예: 2026년 5월 1일 ~ 12월 31일</p>
+              <p className="text-xs text-muted-foreground mt-2">예: 2026년 6월 1일 ~ 12월 31일</p>
             </div>
           </div>
           <div className="info-card mt-4">
             <h4 className="font-bold text-sm mb-2">💡 실전 팁</h4>
-            <p className="text-sm text-muted-foreground">4월 중에 예약을 완료해야 하며, 숙박은 5~12월 사이에 가능합니다. 5월 1일 이후에는 할인코드를 사용한 예약 자체가 불가능합니다.</p>
+            <p className="text-sm text-muted-foreground">5월 중에 예약을 완료해야 하며, 숙박은 6~12월 사이에 가능합니다. 6월 1일 이후에는 할인코드를 사용한 예약 자체가 불가능합니다.</p>
           </div>
         </section>
 
